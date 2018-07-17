@@ -1,0 +1,14 @@
+{
+  "name": "nysgerrig-signalserver",
+  "version": "0.0.0",
+  "description": "",
+  "main": "signal-server.js",
+  "scripts": {
+    "start": "node signal-server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^1.1.5"
+  }
+}
