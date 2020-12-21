@@ -5,8 +5,8 @@ const https = require('https');
 const WebSocket = require('ws');
 
 const server = https.createServer({
-  pfx: fs.readFileSync('cjw_dk.pfx'),
-  passphrase: '12345678'
+  pfx: fs.readFileSync('20210321_47772076.pfx'),
+  passphrase: 'NysgerrigAC!'
 });
 
 const wss = new WebSocket.Server({ server });
@@ -115,3 +115,4 @@ wss.on('connection', socket => {
 });
 
 server.listen(3210);
+console.log('Listening...')
